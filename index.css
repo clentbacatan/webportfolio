@@ -9,3 +9,11 @@
 body {
 	font-family: 'Opens Sans' Oxygen;
 }
+
+.card {
+	text-align: center;
+}
+
+#button1 {
+	text-decoration: none;
+}
