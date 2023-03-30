@@ -12,7 +12,7 @@ body {
 
 }
 
-#profilesection {
+#landing {
 	
 	background-image: url("./images/profilebg.jpg");
 	background-repeat: no-repeat;
@@ -33,7 +33,7 @@ hr {
 	border-top: 1px solid;
 }
 
-#form {
+#contact {
 	width: 25%;
 	background-color: skyblue ;
 	margin: auto;
