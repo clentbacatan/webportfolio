@@ -15,6 +15,7 @@
 
 		<!-- ==== External CSS Link ====== -->
 		<link rel="stylesheet" type="text/css" href="./index.css">
+		<script src="https://kit.fontawesome.com/fc85ee6d35.js" crossorigin="anonymous"></script>
 
 		<title>My Portfolio</title>
 	
@@ -50,31 +51,9 @@
 			</div>
 		</nav>
 
+		<!-- =================================== NavBar Ends Here ============================ -->
 
-		
-		<!-- =================================== NavBar Ends Here ========================================================== -->
-
-		<!-- Profile Section Start -->
-
-
-			<!-- <div id="profilesection" class="profile bg-dark text-white">
-				<div class="container">
-					<div class="row align-content-center min-vh-100">
-						<div class="col-12">
-							<div class="profile-img mt-2 pt-5">
-								<img src="images/myprofile.jpg" style="width: 500px; height: 400px;">
-							</div>
-							<div class="profile-text">
-								<div class="min-vw-100 text-center">
-									<h1>Hi I'm Clent</h1>
-									<p>An aspiring Full Stack Web Developer</p>
-								</div>
-							</div>
-							</div>											
-						</div>					
-					</div>
-				</div>
-			</div> -->
+		<!-- ========================== Profile Section Start ================================= -->
 
 			<div class="container-fluid mt-5 pt-5" id="landing">
 				<div class="row py-5">
@@ -86,10 +65,13 @@
 				</div>	
 			</div>
 
+		<!-- ========================== Profile Section End ================================= -->
 
 
-		<!-- Project sections starts -->
 
+
+
+		<!-- ========================== Project Section Start =============================== -->
 				<!-- <div id="myprojects" class="col-xl-10 p-10">
 				    <div class="container-fluid text-weight-bold p-3 p-md-5">
 				    	<h4 class="text-center">My Projects</h4>
@@ -118,42 +100,36 @@
 				          	  </div>
 				          	</div>
 				          </div>  -->
-
-
-
-			<div class="container mt-2 px-3 py-5" id="projects">
-				<h3 class="text-center">Projects</h3>
-				<hr>
-				<div class="card-deck ">
-				  <div class="card p-3 col-12 col-md-6 col-lg-4 sm-3" >
-				    <img src="./images/project1.jpg" class="card-img-top" alt="...">
+			<div class="container mt-5 px-3" >
+				<h3 class="text-center" id="projects">Projects</h3><hr>
+				<div class="card-deck">
+				  <div class="card1 pt-3 col-12 col-md-4 col-lg-4 sm-3" >
+				    	<img src="./images/project1.jpg" class="card-img-top image">
+					<div class="card-body">
+						<h5 class="card-title">Web Portfolio Creation</h5>
+						<p class="card-text">Created a static online portfolio and deploy in Github</p>
+					</div>
+				  </div>
+				  <div class="card1 pt-3 col-12 col-md-4 col-lg-4 sm-3">
+				    	<img src="./images/project1.jpg" class="card-img-top image">
 				    <div class="card-body">
-				      <h5 class="card-title">Web Portfolio Creation</h5>
-				      <p class="card-text">Created a static online portfolio and deploy using Github</p>
+						<h5 class="card-title">API architecture</h5>
+						<p class="card-text">Created a functionality and tested using Postman.</p>
 				    </div>
 				  </div>
-				  <div class="card col-12 col-md-6 col-lg-4 sm-3">
-				    <img src="./images/project1.jpg" class="card-img-top" alt="...">
+				  <div class="card1 pt-3 col-12 col-md-4 col-lg-4 sm-3">
+				    	<img src="./images/project1.jpg" class="card-img-top image">
 				    <div class="card-body">
-				      <h5 class="card-title">API architecture</h5>
-				      <p class="card-text">Created a functionality and tested using Postman.</p>
-				    </div>
-				  </div>
-				  <div class="card col-12 col-md-6 col-lg-4 sm-3">
-				    <img src="./images/project1.jpg" class="card-img-top" alt="...">
-				    <div class="card-body">
-				      <h5 class="card-title">E-commerce App</h5>
-				      <p class="card-text">A full-stack projet rendered using Vercel.</p>
+						<h5 class="card-title">E-commerce App</h5>
+						<p class="card-text">A full-stack projet rendered using Vercel.</p>
 				    </div>
 				  </div>
 				</div>
 			</div>
+		<!-- ========================== Project Section End =============================== -->
 
 
-		<!-- Project sections ends -->
-
-
-		<!-- Tools used start -->
+		<!-- ========================== Tools Section Start =============================== -->
 
 		<!-- <div id="tools" pt-3>
 			<h2 class="text-center">Tools</h2>
@@ -163,28 +139,27 @@
 					<img src="images./logo-html5.png" class="p-3 img-fluid order-3" style="height: 200px; width: 200px;">
 				</div>
 		</div> -->
-
-		<h2 id="tools" class="text-center">Tools Used</h2>
-		<div class="container">
-			<div class="row g-5">
-				<div class="col-md-5"></div>		
-					<div class=" col-12 col-md-6 col-lg-4">
-						<div class="card-body d-lg-flex justify-content-around col-12 col-md-6 col-lg-4">			
-							<img src="./images/bootstrap.png">
-							<img src="./images/css3.png">
-							<img src="./images/html5.png">
-							<img src="./images/sublime.png">	
-					    </div>				
-					</div>
-				</div>	
-			</div>	
+	
+		<div class="container text-center">
+			<h2 class="toolsHeading" id="tools">Tools and Frameworks Used</h2>
+			<div class="row first-tools">				
+				<img  class="col-3" src="./images/bootstrap.png">
+				<img class="col-3" src="./images/css3.png">
+				<img class="col-3" src="./images/html5.png">
+				<img class="col-3" src="./images/sublime.png">
+			</div>
+			<div class="row second-tools mb-5 px-5">
+				<img class="col-4" src="./images/mongo.png">
+				<img class="col-4" src="./images/react.png">
+				<img class="col-4 pr-5" src="./images/node.png">
+			</div>								
 		</div>
-
-		<!-- Tools used start -->
+		
+		<!-- ========================== Tools Section End =============================== -->
 
 
 		
-		<!-- Contact Us Form Start -->
+		<!-- ========================== Contact Section Start =========================== -->
 
 		<!-- <div id="contact">
 			<h2 class="text-center">Contact</h2>
@@ -205,29 +180,27 @@
 			</form> -->
 
 
-		<div class="mt-5">
-			<h2 class="text-center">Contact</h2>
+		<div class="mb-3" id="contact">
+			<h2 class="text-center mt-5">Contact</h2>
 		</div>
-			<form id="contact" class="col-12 col-md-6 col-lg-4 align-content-center">
-			  <div class="form-group">
-			    <label for="exampleFormControlInput1 col-md-6 col-lg-4">Name</label>
-			    <input type="name" class="form-control" id="exampleFormControlInput1" placeholder=" ">
-			  </div>
-			  <div class="form-group">
-			    <label for="exampleFormControlInput1 col-md-6 col-lg-4">Email</label>
-			    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder=" ">
-			  </div>
-			  <div class="form-group">
-			    <label for="exampleFormControlTextarea1 col-md-6 col-lg-4">Message Me</label>
-			    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-			  </div>
-			</form>
+		<div class="row justify-content-center">
+		<form id="contactForm">
+			<div class="form-group">
+				<label for="exampleFormControlInput1" style="color: aliceblue;">Name</label>
+				<input type="name" class="form-control" id="exampleFormControlInput1" placeholder=" ">
+			</div>
+			<div class="form-group">
+				<label for="exampleFormControlInput1" style="color: aliceblue;">Email</label>
+				<input type="email" class="form-control" id="exampleFormControlInput1" placeholder=" ">
+			</div>
+				<div class="form-group">
+				<label for="exampleFormControlTextarea1" style="color: aliceblue;">Message Me</label>
+				<textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+			</div>
+		</div>
+		</form>
 
-
-
-		<!-- Contact us page ends here -->
-
-		<!-- Footer Starts Here -->
+		<!-- ===================================== Contact Section End ============================== -->
 
 		<!-- <div class="container-fluid py-5" id="pre-footer">
 			<h4 class="mt-3" id="follow">Follow me on social media</h4>
@@ -255,29 +228,29 @@
 		  </div>
 		</div> -->
 
-
-		<div class="container-fluid py-5 mt-5" id="pre-footer">
-			<h4 class="mt-3" id="follow">Follow me on social media</h4>
-			<div class="row justify-content-center my-5">
-				<div class="col-8 col-md-4 col-lg-2 d-flex justify-content-between ">
-					<div class="social"></div>
-					
-					<div class="social"></div>	
-					
-					<div class="social"></div>
-				</div>
+		<!-- ===================================== Footer Section Starts ============================ -->
+		
+		<div class="container-fluid" id="pre-footer">
+			<h4 class="d-flex justify-content-center mt-5 pt-3" id="follow">Follow me on social media</h4>
+			<div class="row justify-content-center ml-1">
+				<ul class="socials">
+					<li><a href="https://www.facebook.com/clentbacatan/"><i class="fa-brands fa-facebook"></i></a></li>
+					<li><a href="https://www.linkedin.com/in/clent-vincent-bacatan-5a5b531b6/"><i class="fa-brands fa-linkedin"></i></a></li>
+					<li><a href="https://github.com/clentbacatan"><i class="fa-brands fa-github"></i></i></a></li>
+				</ul>
+			</div>
+			<div class="footer-bottom">
+				<p>Copyright &copy;2023</p>
 			</div>			
 		</div>
 
-		<footer class="py-3">
-			Copyright. 2023			
-		</footer>
+		<!-- ===================================== Footer Section End =================================== -->
 
-		<!-- Footer Ends Here -->
+
+
 
 		<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 		<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
-
 
 		</div>
 

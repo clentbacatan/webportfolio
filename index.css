@@ -12,6 +12,26 @@ body {
 
 }
 
+/*  ======================================= Nav Start ============================================== */
+
+#nav {
+
+	font-style: normal;
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 24px;
+	color: #004E84 !important;
+}
+
+/*  ======================================= Nav End ============================================== */
+
+
+
+
+
+/* ======================================== Landing Section Start ================================ */
+
+
 #landing {
 	
 	background-image: url("./images/profilebg.jpg");
@@ -19,31 +39,85 @@ body {
 	background-size: cover;
 	height: min(700px);
 	padding-right: 50px;
-
-
-
 }
 
+/* ======================================== Landing Section End =================================== */
 
-#profiletext {
+
+
+
+
+/* ======================================= Tools Section Start ====================================== */
+
+.toolsHeading {
+
+	margin-top: 5%;
+	margin-left: 10px;
+	padding-top: 30px;
+	font-size: 135%;
+}
+  
+  .first-tools img {
+    height: 150%;
+	object-fit: contain;
+	
+  }
+  
+  .second-tools img {
+
+	margin-bottom: 2rem;
+	padding-bottom: 3rem;
+  }
+
+
+  @media (min-width: 768px) {
+    .first-tools img {
+		padding-top: 5rem;
+    }
+	.second-tools img{
+		height: 220px;
+	}
+  }
+
+.container-md {
+	margin-top: 10%;
+}
+
+/* ======================================= Tools Section End ============================================== */
+
+/* #profiletext {
 	font-size: 20pt;
 }
 
 hr {
 	border-top: 1px solid;
-}
+} */
 
-#contact {
-	width: 25%;
-	background-color: skyblue ;
-	margin: auto;
+/* ====================================== Contact Section Start =========================================== */
+
+
+#contactForm {
+	width: 75%;
+	background-color: rgba(0, 0, 255, 0.712);
+	margin-left: 25px;
 	padding: 10px;
 	border: 3px black;
+}
 
+@media (min-width: 768px) {
+	#contactForm {
+		width: 45%;
+		background-color: rgba(0, 0, 255, 0.712);
+		margin-left: 10px;
+		border: 3px black;
+
+	}
 
 }
 
-footer {
+/* ======================================= Contact Section End ============================================== */
+
+/* footer {
 
 	font-family: 'Montserrat';
 	font-style: normal;
@@ -55,7 +129,7 @@ footer {
 
 	color: #003363;
 
-}
+} */
 
 .social {
 	
@@ -67,39 +141,56 @@ footer {
 	border-radius: 100%;
 }
 
+
+/* ===================================== Pre-Footer Starts =============================================== */
+
+#pre-footer {
+	background: blue;
+	height: 28%;
+	margin-top: 5%;
+
+}
+
 #follow {
-	
 	font-family: 'Montserrat';
 	font-style: normal;
 	font-weight: 600;
 	font-size: 24px;
-	line-height: 24px;
+	color: white;
+	margin-top: 50px;
+}
 
+.socials {
+	list-style: none;
+	display: flex;
+	align-items: center;
+	margin: 1rem;
+}
+
+.socials li {
+	margin: 0 20px;
+}
+
+.socials a i {
+	font-size: 1.1rem;
+	width: 17px;
+}
+
+.socials a {
+	text-decoration: none;
+	border: 1.1px solid black;
+	padding: 5px;
+	border-radius: 55%;
+	
+}
+
+.footer-bottom {
+	padding: 20px;
+	padding-bottom: 50px;
 	text-align: center;
-
-	color: black;
-
+	color: white;
 }
 
-#pre-footer {
-	background: skyblue;
-}
-
-#nav {
-
-	font-style: normal;
-	font-weight: 700;
-	font-size: 16px;
-	line-height: 24px;
-	color: #004E84 !important;
-}
+/* ========================================== Pre-Footer Ends ===================================== */
 
 
-.card-body img {
-	padding-left: 25px;
-}
-
-h2 {
-	margin-left: 2rem;
-
-}
